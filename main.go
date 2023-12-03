@@ -15,3 +15,7 @@ func LogError(message string) {
 func LogWarning(message string) {
 	log.Printf("Warning: %v\n", message)
 }
+
+func LogSuccess(message string) {
+	log.Printf("Success: %s\n ", message)
+}
